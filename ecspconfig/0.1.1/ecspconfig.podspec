@@ -18,4 +18,5 @@ Pod::Spec.new do |s|
   s.source_files = 'ecspconfig/Classes/**/*'
   s.frameworks = 'Foundation'
   s.dependency 'ecspbase'
+
 end
