@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary          = 'ECSP配置模块'
   s.description      = <<-DESC
 配置管理中心
-1.配置文件获取
+1.配置文件获取及读取
 2.对外提供配置项获取接口
                        DESC
 
