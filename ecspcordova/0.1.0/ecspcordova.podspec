@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
 基于Cordova进行的封装
 1.基类注入cordova js文件
 2.所有加载H5的view controller都从ECSPCDVViewController继承
+3.cordova.js与cordova_plugin.js放在ecspcordova resource bundle中
                        DESC
 
   s.homepage         = 'http://www.weqicheng.com'
@@ -17,9 +18,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   s.source_files = 'ecspcordova/Classes/**/*'
-#s.resource_bundles = {
-#     'ecspcordova' => ['ecspcordova/Assets/*.*']
-#   }
+  s.resource_bundles = {
+     'ecspcordova' => ['ecspcordova/Assets/*.*']
+    }
 
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'Cordova', '~> 4.3.0'
