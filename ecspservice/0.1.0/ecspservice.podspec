@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary          = 'ECSP Service封装模块'
   s.description      = <<-DESC
 ECSP Service封装
-1.极光推送功能
+1.极光推送功能(暂时移除)
 2.JSPatch热更新
 3.App版本检测
 4.友盟统计
