@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
 1.基类注入cordova js文件
 2.所有加载H5的view controller都从ECSPCDVViewController继承
 3.cordova.js与cordova_plugin.js放在ecspcordova resource bundle中
+
                        DESC
 
   s.homepage         = 'http://www.weqicheng.com'
