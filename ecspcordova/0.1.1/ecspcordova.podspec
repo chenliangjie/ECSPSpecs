@@ -25,4 +25,5 @@ Pod::Spec.new do |s|
 
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'Cordova', '~> 4.3.0'
+  s.dependency 'ecspconfig'
 end
